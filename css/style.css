@@ -2,46 +2,58 @@
   box-sizing:border-box;
 }
 
-body {
-  background-image: url(../images/Question-Marks.jpg);
+
+body{
   font-family: 'open sans', sans-serif;
+  height: 100%;
+  background-image: url(../images/background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.start-game{
-  background: #fff;
+::placeholder {
+  color: #fff;
+  opacity: .45;
+}
+
+.panel{
+  background: #FFFFFF;
+  opacity: .85;
+  width: 30%;
   margin: 20% auto;
-  max-width: 30%;
+  box-shadow: 5px 5px 10px 5px  #21214F;
 }
 
-input.btn[type="submit"] {
-  background: #D2232A;
+input#btn{
+  background: #3C3386;
   border-radius: 3%;
-  color: #FEF200;
+  color: #FFFFFF; 
   cursor: pointer;
   font-size: 22px;
   font-weight: bold;
-  margin: 5px 0px 5px 0px;
+  margin: 10px 5px 10px 5px;
   outline: medium none;
   overflow: hidden;
   padding: 2% 25% 2% 25%;
-  width: 100%;
+  width: 98%;
 }
 
-input.btn[type="submit"]:hover {
-  background: #D1A000;
+input#btn:hover {
+  background: #21214F;
 }
 
 @media (max-width: 720px){
   .start-game{
   margin: 20% auto;
   max-width: 20%;
-}
+  }
 
-  input.btn[type="submit"] {
-
+  input#btn{
   font-size: 10px;
   font-weight: bold;
   }
+  
 }
 
 
