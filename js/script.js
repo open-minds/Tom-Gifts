@@ -4,12 +4,26 @@ function Redirection() {
 
   /* window.open("https://www.udemy.com"); */
   Dict = {
-    'Swing Trading' : 'https://www.udemy.com/swing-trading-using-algorithmic-signals-free/',
-    'CompTIA Network' : 'https://www.udemy.com/network-plus-practice-questions/?couponCode=FREEFORFRIENDS',
-    'Java' : 'https://www.udemy.com/java-java300/',
-    'Vue' : 'https://www.udemy.com/vue-vuex/',
-    'Visual Swift' : 'https://www.udemy.com/swift-memory-mastery/?couponCode=SPRINGFREE',
-
+    '7861' : 'https://www.udemy.com/c-programming-from-basics-to-advance/?couponCode=FREE_COUPON_LV',
+    '7862' : 'https://www.udemy.com/network-attacks-and-security/?couponCode=ONE_LAKH_FREE',
+    '7863' : 'https://www.udemy.com/flutter-mobile-development/?couponCode=FREECOUPON',
+    '7864' : 'https://www.udemy.com/kotlin-series/?couponCode=FREECOUPON',
+    '7865' : 'https://mail.google.com/mail/u/0/#inbox/FMfcgxwCgLsXdJDTnBfSDrFwKGHXFhxC',
+    '7866' : 'https://www.udemy.com/android-project-base-app-development-course-build-real-app/?couponCode=NEWCOURSEFREEPROMO',
+    '7867' : 'https://www.udemy.com/artificial-intelligence-website-creation-2018-no-coding/?couponCode=IROCKWITHAI',
+    '7868' : 'https://www.udemy.com/front-end-web-development/?couponCode=FBFREE18',
+    '7869' : 'https://www.udemy.com/web-development-with-new-framework/?couponCode=CODEMAD',
+    '7870' : 'https://www.udemy.com/python-programming-from-basics-to-advance/?couponCode=PYTHONFREE',
+    '7871' : 'https://www.udemy.com/photo-manipulation-with-adobe-photoshop-amazing-designs/?couponCode=LIMITED',
+    '7872' : 'https://www.udemy.com/algorithms-for-beginners/?couponCode=ALGO-BEGIN',
+    '7873' : 'https://www.udemy.com/3ds-max-modeling/?couponCode=GAMEMODEL',
+    '7874' : 'https://www.udemy.com/software-engineering-processes/?couponCode=SE-ESSENTIALS',
+    '7875' : 'https://www.udemy.com/software-engineering-basics/?couponCode=SE-BASICS',
+    '7876' : 'https://www.udemy.com/data-structures-algorithms/?couponCode=DATASTRUCTURES-ALGOS',
+    '7877' : 'https://www.udemy.com/linux-terminal-command-basics/?couponCode=LINUXCMDBASICSFREE1',
+    '7878' : 'https://www.udemy.com/draft/812104/?couponCode=FREEBIES',
+    '7879' : 'https://www.udemy.com/photoshop-2019-creating-awesome-designs-and-manipulations/?couponCode=FIRSTCOUPON',
+    '7880' : 'https://www.udemy.com/learn-2d-game-special-effect-animation-in-photoshop/?couponCode=FREECODE&siteID=TnL5HPStwNw-L9ZG88kuVusRtx4yEwW0Hw&LSNPUBID=TnL5HPStwNw&awc=6554_1555016627_1f0dd91c3fac053029f8135534f442e4&utm_source=Growth-Affiliate&utm_medium=Affiliate-Window&utm_campaign=Campaign-Name&utm_term=13430&utm_content=Placement',
   }
   if (Dict.hasOwnProperty(data)) {
     window.open(Dict[data]);
